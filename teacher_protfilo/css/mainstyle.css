@@ -1,0 +1,44 @@
+.faculty{
+    padding: 5px;
+    text-align: center;
+    background-color: #00ace9;
+    border: solid 1px #c3c3c3;
+    border-radius: 10px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 110%;
+    
+}
+.jumbotron{
+
+}
+.faculty p{
+ 
+  text-align: center;
+  margin-top: 7px;
+}
+.well1{
+ background-color: #EBEDEE;
+ border: none;
+ box-shadow: none;
+ min-height: 0px;
+}
+.facruet{
+    background-color: #129CFE;
+    color: white;
+    
+    width: 93%;
+    margin-left: 58px;
+    
+   
+  }
+.facruet p{
+    
+     font-weight: bold;
+     font-size: 36px;
+  }
+
+.list-group-item-info{
+  border-radius:20px;
+}

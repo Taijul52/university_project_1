@@ -1,0 +1,276 @@
+body {
+  background-color: #EBEDEE;
+  font-family: open-sans, sans-serif !important;
+}
+
+.dropdown-menu>li>a {
+  display: block;
+
+}
+
+.dropdown:hover,
+.dropdown-menu:hover {
+  display: block;
+}
+
+.well {
+  min-height: 10px;
+  padding: 0;
+  margin-bottom: 10px;
+
+}
+
+#teclogin a {
+  color: white;
+  transition: background-color 0.3s ease-in 0s;
+  font-size: 15px;
+}
+
+#teclogin:hover {
+  background-color: #3276B1;
+  border: 1px solid #3276B1;
+
+}
+
+.stflogin {
+  color: white;
+  font-size: 15px;
+
+}
+
+.stflogin:hover {
+  background-color: #3276B1;
+  border: 1px solid #3276B1;
+}
+
+.logbut {
+  margin-bottom: 2px;
+}
+
+.logsearch,
+.logoimg {
+  background-color: #129CFE;
+}
+
+#but {
+  background-color: #4CAF50;
+  border: medium none;
+  border-radius: 0 5px 5px 0;
+  height: 34px;
+  margin-left: -5px;
+  width: 53px;
+  color: #fff;
+
+  z-index: 2;
+  display: inline-block;
+}
+
+#but:hover {
+  background-color: #3276B1;
+  border-color: #3276B1;
+}
+
+.serachbar {
+  border-radius: 5px 0 0 5px;
+  border-color: #107C10;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3) inset;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+
+}
+
+.serachbar:focus {
+  border-color: #E3008C;
+  box-shadow: 0 1px 1px rgba(247, 99, 12, 0.4) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+  outline: 0 none;
+}
+
+.logbut a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+#headersection {
+  background-color: #262626 !important;
+}
+
+.navbar-default {
+  background-color: #EBEDEE;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-nav>li>a:hover {
+  background-color: #449D44;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+  font-size: 15px;
+}
+
+.navbar-nav>li>a {
+  border: 2px solid #00ace9;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-top: 2px;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  transition: background-color 0.3s ease-in 0s;
+}
+
+.navbar-default .navbar-nav .dropdown .dropdown-toggle:hover {
+  color: #fff;
+  background-color: #00ace9;
+  border: 1px solid #00ace9;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: #00ace9;
+  color: #fff;
+}
+
+.navbar-toggle {
+  background-color: #00ace9;
+  color: white;
+}
+
+.navbar-toggle .icon-bar {
+  color: white;
+}
+
+.dropdown .dropdown-menu {
+  background-color: #EBEDEE;
+  border: 1px solid #00ace9;
+  margin-top: 5px;
+  border-radius: 10px;
+
+}
+
+.dropdown .dropdown-menu>li>a {
+  background-color: #EBEDEE;
+  color: #000;
+  font-size: 15px;
+  transition: background-color 0.3s ease-in 0s;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #00ace9;
+  border-radius: 5px;
+}
+
+.successbtn {
+  background-color: #00ace9;
+  border-color: #00ace9;
+}
+
+.successbtn:hover {
+  background-color: #3276B1;
+  border-color: #3276B1;
+
+}
+
+.updateprimarybtn {
+  background-color: #00ace9;
+  border-color: #00ace9;
+}
+
+.updateprimarybtn:hover {
+  background-color: #3276B1;
+  border-color: #3276B1;
+}
+
+.inner-addon {
+  position: relative;
+  width: 10% !important;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon {
+  left: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+  padding-left: 30px;
+}
+
+.button {
+  padding: 5px;
+}
+
+.serachbar {
+  width: 30%;
+  padding: 5px;
+}
+
+.logsearch {
+  padding-top: 1%;
+}
+
+.borderrigth {
+  padding-right: 1px;
+  margin-right: 6px;
+  border-right: 2px solid gray;
+}
+
+.footersection {
+  margin-left: 35px;
+}
+
+#registaion {
+  background-color: green !important;
+  color: white;
+}
+
+.profimg {
+  margin-left: 100px;
+}
+
+p.pro_p {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.carousel-control {
+
+  width: 0%;
+  font-size: 20px;
+  color: #565675;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+
+}
+
+.inputg {
+  border-collapse: separate;
+  display: table;
+  position: relative;
+}
+
+.inputg[class*="col-"] {
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.inputg .serachbar {
+  float: left;
+  margin-bottom: 0;
+  position: relative;
+  width: 75%;
+  z-index: 2;
+}

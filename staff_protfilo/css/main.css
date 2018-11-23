@@ -1,0 +1,124 @@
+body{
+  background-color:#EBEDEE;
+}
+.dropdown-menu > li > a{
+  display: block;
+
+}
+.dropdown:hover,
+.dropdown-menu:hover  {
+  display: block;
+}
+#teclogin a{
+  color: white;
+}
+.logbut {
+margin-bottom: 2px;
+}
+.logsearch,.logoimg{
+background-color: #129CFE;
+}
+
+#but{
+  background: green none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0 5px 5px 0;
+  height: 34px;
+  margin-left: -5px;
+  width: 20%;
+  color: white;
+}
+#seabar{
+  border-radius: 5px 0 0 5px;
+    height: 33px;
+    padding-bottom: .5px;
+    background-image: url(img/search.png);
+    background-repeat: no-repeat;
+}
+.logbut a{
+  color:#fff;
+  text-decoration: none;
+
+}
+#headersection{
+  background-color: #262626 !important;
+}
+.navbar-default{
+  background-color: #EBEDEE;
+  border: none;
+  border-radius: 0;
+  margin-top: 10px;
+}
+.navbar-nav>li>a:hover{
+  background-color: #449D44;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #000;
+  font-size: 15px;
+}
+.navbar-nav > li > a {
+  border: 2px solid green;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-top: 2px;
+  padding-top: 4px;
+  padding-bottom: 3px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  background-color:green;
+  color: #fff;
+}
+.navbar-toggle {
+  background-color: #449d44;
+  border: green;
+}
+span.icon-bar{
+ color: white;
+}
+.inner-addon {
+    position: relative;
+    width: 10% !important;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.marginleft{
+  margin-left: 60px;
+}
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+
+.button{
+  padding: 5px;
+}
+.serachbar{
+  width: 30%;
+  padding: 5px;
+}
+.logsearch{
+  padding-top: 1%;
+}
+.borderrigth{
+  padding-right: 1px;
+  margin-right: 6px;
+  border-right: 2px solid gray;
+}
+.footersection{
+  margin-left: 35px;
+}
+#registaion{
+background-color: green !important;
+color: white;
+}
+.profimg{
+  margin-left: 100px;
+}
+.foot{
